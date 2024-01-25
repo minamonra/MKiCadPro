@@ -18,7 +18,7 @@
 **/*.tmp
 **/*-save.pro
 **/*-save.kicad_pcb
-**/fp-info-cache
+#**/fp-info-cache
 
 # Netlist files (exported from Eeschema)
 **/*.net
