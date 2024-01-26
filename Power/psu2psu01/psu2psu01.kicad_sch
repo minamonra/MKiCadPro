@@ -8695,7 +8695,7 @@
     (property "Value" "ES1J" (at 80.645 82.55 0)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Footprint" "Diode_SMD:D_1206_3216Metric" (at 64.77 82.55 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (at 64.77 82.55 0)
       (effects (font (size 1.778 1.778)) hide)
     )
     (property "Datasheet" "" (at 64.77 82.55 0)
