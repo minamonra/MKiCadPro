@@ -3903,7 +3903,7 @@
 
   (footprint "mmods:CPD01" (layer "F.Cu")
     (tstamp 57145cb7-54e7-41c6-b5b5-c097e688e46f)
-    (at 48.85 61.1 90)
+    (at 48.85 61.440001 90)
     (descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor")
     (property "Sheetfile" "psu2psu01.kicad_sch")
@@ -7343,7 +7343,7 @@
 
   (footprint "mmods:CPD01" (layer "F.Cu")
     (tstamp deaf116c-d6e4-46f5-8b9a-621dd9617e53)
-    (at 57.1 24.7 180)
+    (at 55.440001 24.7 180)
     (descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor")
     (property "Sheetfile" "psu2psu01.kicad_sch")
