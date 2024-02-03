@@ -898,9 +898,6 @@
   (junction (at 85.725 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 4f5bc69f-85ca-493c-abcf-85add36be8ae)
   )
-  (junction (at 53.34 40.64) (diameter 0) (color 0 0 0 0)
-    (uuid 5ac41968-56ed-464d-8888-db524d308419)
-  )
   (junction (at 53.34 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 5cd4f6a0-b4fe-43af-ab88-6743c4e95f75)
   )
@@ -909,6 +906,9 @@
   )
   (junction (at 113.665 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 803ba210-d864-48fe-936b-a95402b62287)
+  )
+  (junction (at 48.26 76.2) (diameter 0) (color 0 0 0 0)
+    (uuid 9a9bfea3-e8f0-4893-a262-ed13f14fefc9)
   )
   (junction (at 85.725 76.2) (diameter 0) (color 0 0 0 0)
     (uuid a21618f6-f4b9-46cc-8a84-693ea6956d20)
@@ -947,11 +947,15 @@
     (stroke (width 0) (type default))
     (uuid 1f8862f6-ad29-4bc3-9b86-7cabc1380fed)
   )
+  (wire (pts (xy 48.26 63.5) (xy 48.26 76.2))
+    (stroke (width 0) (type default))
+    (uuid 27b261dd-4eb7-444d-a1a6-08774400ab34)
+  )
   (wire (pts (xy 53.34 76.2) (xy 61.595 76.2))
     (stroke (width 0) (type default))
     (uuid 2a73f90f-4ade-4430-9ac1-c848cf1dd4c1)
   )
-  (wire (pts (xy 51.435 76.2) (xy 53.34 76.2))
+  (wire (pts (xy 48.26 76.2) (xy 53.34 76.2))
     (stroke (width 0) (type default))
     (uuid 31226094-48ae-41ca-85a8-c14531dff9b6)
   )
@@ -1006,10 +1010,6 @@
   (wire (pts (xy 63.5 53.34) (xy 53.34 53.34))
     (stroke (width 0) (type default))
     (uuid 68876ba1-13c5-46ad-a4ea-375187909a4b)
-  )
-  (wire (pts (xy 51.435 40.64) (xy 53.34 40.64))
-    (stroke (width 0) (type default))
-    (uuid 6da19a51-2e6f-4df2-9b9a-428997474846)
   )
   (wire (pts (xy 94.615 55.88) (xy 83.82 55.88))
     (stroke (width 0) (type default))
@@ -1099,6 +1099,10 @@
     (stroke (width 0) (type default))
     (uuid e4be62a6-976f-4f3a-9f84-4e5f339354c2)
   )
+  (wire (pts (xy 48.26 60.96) (xy 53.34 60.96))
+    (stroke (width 0) (type default))
+    (uuid e710cf83-e9d0-4ed2-bc27-72787b579ab9)
+  )
   (wire (pts (xy 91.44 63.5) (xy 85.725 63.5))
     (stroke (width 0) (type default))
     (uuid eb779e7e-865e-48de-a1b7-f18399078c6d)
@@ -1143,7 +1147,7 @@
     (pin "1" (uuid 2267d327-af94-4ed3-b358-a590d136b972))
     (pin "2" (uuid 717da372-796f-41fc-9566-cb43bbb332a4))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R5") (unit 1)
         )
@@ -1169,7 +1173,7 @@
     (pin "1" (uuid d7f5f06a-4c81-46f0-8338-1b0a7ecd2575))
     (pin "2" (uuid 3f99fa9d-2b5e-4688-8c7a-fb4596316e0b))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R13") (unit 1)
         )
@@ -1195,7 +1199,7 @@
     (pin "1" (uuid 8c06b1e2-5d3e-4d61-beaa-639a026acdf6))
     (pin "2" (uuid 392a8698-3ec3-420e-982c-5dcc721604e0))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R2") (unit 1)
         )
@@ -1221,7 +1225,7 @@
     (pin "1" (uuid c21e1b37-b193-4097-b32d-c8d49eec1661))
     (pin "2" (uuid 4b440bb4-7ca5-463b-87c6-9cd1143d0979))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "C3") (unit 1)
         )
@@ -1229,25 +1233,25 @@
     )
   )
 
-  (symbol (lib_id "_aa40_misc:CONN2PIN") (at 46.355 40.64 180) (unit 1)
+  (symbol (lib_id "_aa40_misc:CONN2PIN") (at 43.18 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46716a90-e41b-469d-8d97-e9f4538ca966)
-    (property "Reference" "J6" (at 46.99 35.56 0)
+    (property "Reference" "J6" (at 43.815 58.42 0)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "5V" (at 43.815 39.37 0)
-      (effects (font (size 1.016 1.016)))
+    (property "Value" "5V" (at 40.64 62.23 0)
+      (effects (font (size 1.016 1.016) italic))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 46.355 40.64 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 43.18 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 46.355 40.64 0)
+    (property "Datasheet" "" (at 43.18 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 49375eec-12c0-42f9-9b0a-bb7ea810cc8e))
     (pin "1" (uuid be57dc8e-96d5-4f77-aa40-d5bd6b83a3cb))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "J6") (unit 1)
         )
@@ -1273,7 +1277,7 @@
     (pin "1" (uuid 7a3da252-b864-4a57-8c81-607dfaeaf078))
     (pin "2" (uuid c8db2b22-cfa0-4fe8-88b1-ebf1146a11a5))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "SW1") (unit 1)
         )
@@ -1299,7 +1303,7 @@
     (pin "1" (uuid a4c14a06-0790-4b35-a2aa-3f28fcad0449))
     (pin "2" (uuid 70d38526-3263-4a91-92bc-945ba96bb831))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R6") (unit 1)
         )
@@ -1307,50 +1311,25 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 47.625 60.96 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 104.775 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63bbf865-386f-4495-86b3-9966d65f39ea)
-    (property "Reference" "H2" (at 47.625 57.785 0)
+    (property "Reference" "H2" (at 104.775 79.375 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MountingHole" (at 47.625 57.785 0)
+    (property "Value" "MountingHole" (at 104.775 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 47.625 60.96 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 104.775 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 47.625 60.96 0)
+    (property "Datasheet" "~" (at 104.775 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_aa40_misc:GND") (at 52.705 38.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 669cc668-1995-42dc-8ed8-9de7d65ba6a2)
-    (property "Reference" "#PWR02" (at 53.975 38.1 0)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Value" "GND" (at 53.975 38.1 0)
-      (effects (font (size 1.016 1.016)) hide)
-    )
-    (property "Footprint" "" (at 52.705 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 52.705 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3d5540c0-9b58-4e41-b1ed-25af6258ea3c))
-    (instances
-      (project "tiny04"
-        (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1374,7 +1353,7 @@
     (pin "1" (uuid f16b1b8e-6996-459b-a06c-10a2a99e05f8))
     (pin "2" (uuid fdc799a5-20eb-46aa-a2d3-b91658e7a3b0))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R3") (unit 1)
         )
@@ -1400,7 +1379,7 @@
     (pin "1" (uuid 39111c6d-0551-49f3-9f5b-6afbdae12095))
     (pin "2" (uuid aa3e29d4-736c-4b13-a0e4-5361ef220cd8))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "C1") (unit 1)
         )
@@ -1408,23 +1387,23 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 47.625 51.435 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 95.25 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86654c74-7797-42ce-9fc1-a4bd3aa1e71e)
-    (property "Reference" "H1" (at 47.625 48.26 0)
+    (property "Reference" "H1" (at 95.25 79.375 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MountingHole" (at 47.625 48.26 0)
+    (property "Value" "MountingHole" (at 95.25 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 47.625 51.435 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 95.25 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 47.625 51.435 0)
+    (property "Datasheet" "~" (at 95.25 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "H1") (unit 1)
         )
@@ -1450,7 +1429,7 @@
     (pin "2" (uuid a0081048-64c9-479b-ab3b-222f27b48a1c))
     (pin "1" (uuid defc291e-543b-42bf-a149-84c9f78eedb0))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R7") (unit 1)
         )
@@ -1476,7 +1455,7 @@
     (pin "1" (uuid 23898f04-e207-40b7-9c81-3ab7076948dd))
     (pin "2" (uuid 27a648fb-2259-44ec-94bb-cf7cb6646d47))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "VD4") (unit 1)
         )
@@ -1502,7 +1481,7 @@
     (pin "2" (uuid 8f4cc938-df15-45ed-91fd-b3f887ad2edd))
     (pin "1" (uuid 29a44cb9-b79c-4150-88f2-1952d276c04d))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "J4") (unit 1)
         )
@@ -1534,7 +1513,7 @@
     (pin "7" (uuid 8fbd2d66-4f19-4255-80a4-6d623483dc7d))
     (pin "8" (uuid 723b5050-21e7-4903-b32f-22a38f9d1af3))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "U2") (unit 1)
         )
@@ -1559,7 +1538,7 @@
     )
     (pin "1" (uuid 34472c9f-7f85-4845-8165-d28483d31b7d))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "#PWR04") (unit 1)
         )
@@ -1584,7 +1563,7 @@
     )
     (pin "1" (uuid e32c9d2b-909f-450b-96eb-f2e030131e31))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "J8") (unit 1)
         )
@@ -1592,24 +1571,24 @@
     )
   )
 
-  (symbol (lib_id "_aa40_misc:CONN01PIN") (at 46.355 76.2 180) (unit 1)
+  (symbol (lib_id "_aa40_misc:CONN01PIN") (at 43.18 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2d18d85-9c0f-4804-82cc-a1d6f751637f)
-    (property "Reference" "J1" (at 46.99 73.66 0)
+    (property "Reference" "J1" (at 43.815 73.66 0)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "CONN01PIN" (at 46.355 73.66 0)
+    (property "Value" "CONN01PIN" (at 43.18 73.66 0)
       (effects (font (size 0.762 0.762)) hide)
     )
-    (property "Footprint" "_aDIPonTop:SMD1PIN" (at 46.355 76.2 0)
+    (property "Footprint" "_aDIPonTop:SMD1PIN" (at 43.18 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 46.355 76.2 0)
+    (property "Datasheet" "" (at 43.18 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 185ab8cb-c122-4732-a4de-00480b5f6428))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "J1") (unit 1)
         )
@@ -1635,7 +1614,7 @@
     (pin "2" (uuid 6541ccbc-db46-4324-9cac-dd1d0dacccd3))
     (pin "1" (uuid 4c43edc8-19ab-4472-8882-27b999be5018))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "J3") (unit 1)
         )
@@ -1661,7 +1640,7 @@
     (pin "1" (uuid ca1dabe0-c64a-4e0a-8e08-21744f21fb9b))
     (pin "2" (uuid f06100f7-172d-4fdf-9632-fe3c5a3fd3f3))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R1") (unit 1)
         )
@@ -1686,7 +1665,7 @@
     )
     (pin "1" (uuid 5d0bb2bc-3d65-4c99-b47e-aeb67529087b))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "#PWR03") (unit 1)
         )
@@ -1713,7 +1692,7 @@
     (pin "2" (uuid 93b5721b-eecd-4c9f-bec1-c6dcec4b2bda))
     (pin "1" (uuid a9e25969-d074-4f04-bc13-b8aee43a0df7))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "VT1") (unit 1)
         )
@@ -1739,7 +1718,7 @@
     (pin "1" (uuid fdfac44d-e9dd-4d5c-9a42-1bf451c08359))
     (pin "2" (uuid e60f8f4d-4247-48e5-8e2e-8396c2e7e57c))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "VD3") (unit 1)
         )
@@ -1765,7 +1744,7 @@
     (pin "1" (uuid e4e9c372-b26c-4687-8d96-73395da8d847))
     (pin "2" (uuid a161223c-2c2f-4f37-862e-034a0543ba09))
     (instances
-      (project "tiny04"
+      (project "tiny13fan_button"
         (path "/9c2caab3-41d1-4d65-b790-45521f4ed520"
           (reference "R4") (unit 1)
         )
