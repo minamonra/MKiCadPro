@@ -1,2 +1,2 @@
-Scheme & PCN for:
+Scheme & PCB for:
 https://github.com/minamonra/my_avr_snippets/tree/main/tiny13/fan_button
