@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "flyback_2020_ETD29-rescue")(type "Legacy")(uri "${KIPRJMOD}/flyback_2020_ETD29-rescue.lib")(options "")(descr ""))
+  (lib (name "flyback_2022_v01-rescue")(type "Legacy")(uri "${KIPRJMOD}/flyback_2022_v01-rescue.lib")(options "")(descr ""))
+)
