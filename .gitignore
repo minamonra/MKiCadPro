@@ -2,7 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 **/*.log
-
+**/*.lck
 
 # Temporary files
 **/*.000
