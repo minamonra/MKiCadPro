@@ -1076,7 +1076,7 @@
 				)
 			)
 		)
-		(symbol "_aa40_chips:OB2268"
+		(symbol "_aa40_chips:OB2269"
 			(pin_names
 				(offset 0.381)
 			)
@@ -1091,7 +1091,7 @@
 					)
 				)
 			)
-			(property "Value" "OB2268"
+			(property "Value" "OB2269"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -1137,7 +1137,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OB2268_1_1"
+			(symbol "OB2269_1_1"
 				(polyline
 					(pts
 						(xy -7.62 -8.89) (xy 7.62 -8.89)
@@ -1282,7 +1282,7 @@
 						(type none)
 					)
 				)
-				(text "OB2268"
+				(text "OB2269"
 					(at 0 0 900)
 					(effects
 						(font
@@ -5323,6 +5323,12 @@
 		(uuid "f499282e-b3f2-4e71-8f67-9309a540e33e")
 	)
 	(junction
+		(at 97.79 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4db33e8-992c-40a9-82b6-c1b0188d3dcf")
+	)
+	(junction
 		(at 156.21 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5450,13 +5456,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 137.16 48.26)
+			(xy 97.79 43.18) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14491404-3734-4ca7-9972-1c809b4859ab")
+		(uuid "14418243-df1d-4bee-bfe2-d715056b9264")
 	)
 	(wire
 		(pts
@@ -5800,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 107.95 43.18)
+			(xy 88.9 43.18) (xy 97.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6200,6 +6206,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 43.18) (xy 97.79 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb331d8-2fff-4f99-b06d-d31106af7c75")
+	)
+	(wire
+		(pts
 			(xy 170.18 43.18) (xy 170.18 48.26)
 		)
 		(stroke
@@ -6207,16 +6223,6 @@
 			(type default)
 		)
 		(uuid "bfe83477-64d2-47b8-8e72-f8ae9efb8293")
-	)
-	(wire
-		(pts
-			(xy 129.54 48.26) (xy 128.27 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c083f475-cf7e-48d0-b37d-bbf70a0f875c")
 	)
 	(wire
 		(pts
@@ -6237,6 +6243,16 @@
 			(type default)
 		)
 		(uuid "c411d9e2-9e00-4ae1-86fe-d12dba5b9c9f")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7648e2b-8fb7-4b7d-80af-916ef75fffab")
 	)
 	(wire
 		(pts
@@ -6537,7 +6553,7 @@
 		(uuid "3b7e52d8-f382-4b98-a495-fbfb87450a45")
 	)
 	(label "+310V"
-		(at 93.98 43.18 0)
+		(at 100.33 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6573,7 +6589,7 @@
 	)
 	(global_label "SV"
 		(shape input)
-		(at 148.59 48.26 0)
+		(at 146.05 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6584,7 +6600,7 @@
 		)
 		(uuid "f40fd2ec-ac91-4e20-9344-37acc4af2415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.8164 48.26 0)
+			(at 150.2764 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,6 +6672,73 @@
 			(project "FeronDC24V150W"
 				(path "/2231a296-fb6b-43a8-92d6-581e2d66b47b"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_aa40_misc:GND1")
+		(at 97.79 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09477674-6a44-41e4-bd75-48e478e142af")
+		(property "Reference" "#PWR01"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e77def2b-7e9c-4f1d-adad-054aac4f2b60")
+		)
+		(instances
+			(project "feron_lb019"
+				(path "/2231a296-fb6b-43a8-92d6-581e2d66b47b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7157,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -7354,7 +7437,7 @@
 	)
 	(symbol
 		(lib_id "_aa40_resistors:R_RES_0.25")
-		(at 143.51 48.26 0)
+		(at 140.97 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7363,7 +7446,7 @@
 		(dnp no)
 		(uuid "2b58223f-6860-4106-8665-00ba8458cb63")
 		(property "Reference" "R8"
-			(at 143.51 45.72 0)
+			(at 140.97 45.72 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7371,7 +7454,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 143.51 50.8 0)
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7379,7 +7462,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 143.51 48.26 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 48.26 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7480,7 @@
 			)
 		)
 		(property "Description" "Резистор 0,25 Ватт"
-			(at 143.51 48.26 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7602,7 @@
 	)
 	(symbol
 		(lib_id "_aa40_misc:GND1")
-		(at 88.9 53.34 0)
+		(at 88.9 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7528,7 +7611,7 @@
 		(fields_autoplaced yes)
 		(uuid "33b49663-4256-4f5c-a1e2-68b0b2c27f35")
 		(property "Reference" "#PWR08"
-			(at 88.9 59.69 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7620,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 88.9 57.15 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 53.34 0)
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 53.34 0)
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 88.9 53.34 0)
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_aa40_chips:OB2268")
+		(lib_id "_aa40_chips:OB2269")
 		(at 118.11 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8570,7 +8653,7 @@
 	)
 	(symbol
 		(lib_id "_aa40_diodes:DIODE")
-		(at 133.35 48.26 0)
+		(at 132.08 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8579,7 +8662,7 @@
 		(dnp no)
 		(uuid "619e9510-6ffb-4cf9-9c38-7bcbb8ed9ee1")
 		(property "Reference" "D2"
-			(at 133.35 45.72 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8587,7 +8670,7 @@
 			)
 		)
 		(property "Value" "DIODE"
-			(at 133.35 50.8 0)
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8596,7 +8679,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal"
-			(at 133.35 60.96 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8605,7 +8688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 60.96 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8614,7 +8697,7 @@
 			)
 		)
 		(property "Description" "Диод"
-			(at 133.35 48.26 0)
+			(at 132.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,6 +8915,74 @@
 			(project "FeronRmx"
 				(path "/2231a296-fb6b-43a8-92d6-581e2d66b47b"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_aa40_resistors:R_RES_0.125W")
+		(at 97.79 49.53 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82532801-a063-4756-9dec-65607f916899")
+		(property "Reference" "R1"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Резистор 0.125 Ватт"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb9a26d-4b39-4a66-bdc8-579be160e271")
+		)
+		(pin "2"
+			(uuid "d5344cdd-07ed-4b5b-92c0-6eea31d31df7")
+		)
+		(instances
+			(project "feron_lb019"
+				(path "/2231a296-fb6b-43a8-92d6-581e2d66b47b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9752,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 243.84 72.39 0)
 			(effects
 				(font
