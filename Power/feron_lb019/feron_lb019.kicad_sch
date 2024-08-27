@@ -9279,7 +9279,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "27k"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3k3"
 			(at 236.22 82.55 0)
 			(effects
 				(font
