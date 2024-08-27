@@ -4,4 +4,4 @@
 
 Размер корпуса 200x55.
 
-[Обсудить можно тут:](https://anklab.ru/forum/index.php?topic=241.0)
+[Обсудить можно тут.](https://anklab.ru/forum/index.php?topic=241.0)
