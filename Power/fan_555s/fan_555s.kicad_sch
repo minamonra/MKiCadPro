@@ -2068,7 +2068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 105.41 66.04 0)
 			(effects
 				(font
