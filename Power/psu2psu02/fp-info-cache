@@ -1,4 +1,4 @@
-25197530232115878
+25204521281554795
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99645,6 +99645,13 @@ C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
 2
 2
 _aCapa
+C_Rect_0
+
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 6mm Capacitor
+0
+2
+2
+_aCapa
 C_Rect_01
 Плёнка китайска 1мкФ жёлтый квадратный
 
@@ -99674,6 +99681,13 @@ C Rect series Radial pin pitch 15.00mm  length 16.5mm width 6mm Capacitor
 2
 _aCapa
 C_Rect_05
+
+C Rect series Radial pin pitch 15.00mm  length 16.5mm width 6mm Capacitor
+0
+2
+2
+_aCapa
+C_Rect_06-L16P15W5.8
 
 C Rect series Radial pin pitch 15.00mm  length 16.5mm width 6mm Capacitor
 0
@@ -100107,6 +100121,13 @@ ACDC_China-03
 4
 4
 _aModules
+ACDC_China-04
+
+Interest Maker AC-DC
+0
+4
+4
+_aModules
 ARDUINO_SHIELD_2_040pins
 
 
@@ -100482,8 +100503,8 @@ DRO05-FLEX-200A
 
 
 0
-6
-2
+4
+4
 _aTransformers
 DROPWR1
 
@@ -100503,8 +100524,8 @@ E36-FLEX-200A-P
 
 
 0
-12
-12
+11
+11
 _aTransformers
 E42-21-15-P4203
 E42/21/15 Каркас 1 сек 16 выв P-4203
@@ -100528,6 +100549,13 @@ Gate drain transformer
 4
 _aTransformers
 EMIF01
+Gate drain transformer
+Gate drain transformer
+0
+4
+4
+_aTransformers
+EMIF02-FLEX
 Gate drain transformer
 Gate drain transformer
 0
